@@ -1,0 +1,44 @@
+.logo img{
+    height: 100px;
+  }
+  .nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  .nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .nav ul{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 28%;
+  }
+  .btn{
+    margin-left: 4%;
+  }
+
+  .nav a:hover{
+    color: #eaa298;
+  }
+  
+
+  .nav button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.353);
+    color: white;
+    font: bold;
+    font-size: 20px;
+    border-radius: 8px;
+  }

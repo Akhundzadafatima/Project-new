@@ -1,0 +1,68 @@
+.book_body{
+    width: 100%;
+    height: 100vh;
+    background-color: #774936;
+}
+.book_body h1{
+    text-align: center;
+    padding: 50px 0;
+}
+.cont_book{
+    color: white;
+    width: 84%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.all_inputs{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    gap: 250px;
+}
+.all_inputs input{
+width: 150%;
+height: 50px;
+background-color: #774a36be;
+border: 1px solid white;
+border-radius: 8px;
+padding-left: 5px;
+margin-top: 10px;
+font-size: 18px;
+color: white;
+outline: none;
+}
+.time{
+    margin-left: 50px;
+}
+.date input{
+width: 200%;
+}
+.time input{
+    width: 270%;
+}
+select{
+    width: 330%;
+height: 50px;
+background-color: #774a3659;
+border: 1px solid white;
+border-radius: 8px;
+padding-left: 5px;
+margin-top: 10px;
+font-size: 18px;
+color: white;
+outline: none;
+}
+
+.all_inputs input::placeholder{
+    color: white;
+}
+.submit input{
+    width: 280%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.submit input:hover{
+    background-color: #d5987d;
+}

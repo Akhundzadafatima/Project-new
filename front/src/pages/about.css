@@ -1,0 +1,39 @@
+.container{
+    width: 50%;
+    margin: 0 auto;
+    height: 160vh;
+    color: white;
+}
+.body{
+    width: 100%;
+    background-color: #774936;
+}
+.body h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.textt{
+    text-align: justify;
+}
+
+h3{
+    margin: 20px 0;
+}
+img{
+    height: 300px;
+}
+.left_img{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+.right_img{
+    position: absolute;
+    right: 5%;
+    width: 13%;
+    margin-top: 600px;
+}
